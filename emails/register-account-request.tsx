@@ -8,7 +8,7 @@ import { gv } from "../utils/getValue";
 import DefaultPage from "../components/DefaultPage";
 
 export default () => (
-  <DefaultPage templateName="register-account-request">
+  <DefaultPage domain="ihomepage.me" templateName="register-account-request">
     <Heading as="h2">Register account request</Heading>
     <Text>
       If you requested a register for iHomepage, use the captcha below to

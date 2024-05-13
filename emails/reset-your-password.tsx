@@ -4,7 +4,7 @@ import { gv } from "../utils/getValue";
 import DefaultPage from "../components/DefaultPage";
 
 export default () => (
-  <DefaultPage templateName="reset-your-password">
+  <DefaultPage domain="ihomepage.me" templateName="reset-your-password">
     <Heading as="h2">Reset your password?</Heading>
     <Text>
       If you requested a password reset for iHomepage, use the captcha below to
