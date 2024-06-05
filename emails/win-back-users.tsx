@@ -17,25 +17,27 @@ export default () => (
       Returning to iHomepage and discover new experience!
     </Heading>
 
-    <Link href="https://ihomepage.me?utm_source=win-back-users">
-      <Row>
-        <Column>
+    <Row>
+      <Column>
+        <Link href="https://web.ihomepage.me?utm_source=win-back-users">
           <Img
             src="https://ihomepage.me/images/home-page/pc.png"
             width="100%"
             alt="iHomepage"
           />
-        </Column>
+        </Link>
+      </Column>
 
-        <Column>
+      <Column>
+        <Link href="https://ihomepage.me/install-tutorial/ios/?utm_source=win-back-users">
           <Img
             src="https://ihomepage.me/images/home-page/mobile.png"
             width="100%"
             alt="iHomepage"
           />
-        </Column>
-      </Row>
-    </Link>
+        </Link>
+      </Column>
+    </Row>
 
     <Text>👋 Hi {gv("nickname")}</Text>
     <Text>

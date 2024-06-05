@@ -17,25 +17,28 @@ export default () => (
       重返 iHomepage，发现新体验
     </Heading>
 
-    <Link href="https://ihomepage.cn?utm_source=win-back-users">
+
       <Row>
         <Column>
-          <Img
-            src="https://ihomepage.cn/images/home-page/pc.png"
-            width="100%"
-            alt="iHomepage"
-          />
+          <Link href="https://web.ihomepage.cn?utm_source=win-back-users">
+            <Img
+              src="https://ihomepage.cn/images/home-page/pc.png"
+              width="100%"
+              alt="iHomepage"
+            />
+          </Link>
         </Column>
 
         <Column>
-          <Img
-            src="https://ihomepage.cn/images/home-page/mobile.png"
-            width="100%"
-            alt="iHomepage"
-          />
+          <Link href="https://ihomepage.cn/install-tutorial/ios/?utm_source=win-back-users">
+            <Img
+              src="https://ihomepage.cn/images/home-page/mobile.png"
+              width="100%"
+              alt="iHomepage"
+            />
+          </Link>
         </Column>
       </Row>
-    </Link>
 
     <Text>👋 嗨，{gv("nickname")}</Text>
     <Text>
