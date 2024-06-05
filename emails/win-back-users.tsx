@@ -13,9 +13,11 @@ import DefaultPage from "../components/DefaultPage";
 
 export default () => (
   <DefaultPage domain="ihomepage.me" templateName="win-back-users">
-    <Heading as="h2">
-      Returning to iHomepage and discover new experience!
-    </Heading>
+    <Link href="https://web.ihomepage.me?utm_source=win-back-users">
+      <Heading as="h2">
+        Returning to iHomepage and discover new experience!
+      </Heading>
+    </Link>
 
     <Row>
       <Column>
